@@ -16,8 +16,18 @@ import re
 import sys
 
 
+if __name__ == "__main__":
+    n = int(input(f"enter your number: ").strip())
 
-if __name__ == '__main__':
-    n = int(input().strip())
-    
+    even_odd = n // 2 == 0
+
+    if even_odd and range(1,5):
+        print('Not Weird')
+    elif even_odd and range(6,20):
+        print('Weird')
+    elif even_odd and even_odd > 20:
+        print('Not Weird')
+    else:
+        print('Weird')
+
 
