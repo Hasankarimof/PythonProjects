@@ -77,7 +77,7 @@ timer_label.grid(column=1, row=0)
 
 # Canvas
 canvas = Canvas(width=230, height=240, bg=YELLOW, highlightthickness=0)
-image = PhotoImage(file=r"C:\Users\Khasan\PycharmProjects\PythonProjects\28\tomato.png")
+image = PhotoImage(file=r"/Pomodoro_Timer\tomato.png")
 canvas.create_image(115, 120, image=image)
 timer_text = canvas.create_text(115, 130, text="00:00", fill="white", font=(FONT_NAME, 30, "bold"))
 canvas.grid(column=1, row=1)
