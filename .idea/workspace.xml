@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b370b53-b64c-48c8-8d88-c692401ec355" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/27/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MailMerge/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MailMerge/my_file" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NATO_Alphabet/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NATO_Alphabet/nato_phonetic_alphabet.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SnakeGame/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TurtleCrossingGame/car_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TurtleCrossingGame/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TurtleCrossingGame/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TurtleCrossingGame/scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U.S States Game/2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U.S States Game/50_states.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U.S States Game/blank_states_img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U.S States Game/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U.S States Game/weather_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/28/tomato.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mile_to_kilo_converter/Checkbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mile_to_kilo_converter/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mile_to_kilo_converter/playground.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGame/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGame/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGame/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/27/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/28/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +55,7 @@
     "Python.car_manager.executor": "Run",
     "Python.main.executor": "Run",
     "Python.paddle.executor": "Run",
+    "Python.playground.executor": "Run",
     "Python.scoreboard.executor": "Run",
     "Python.snake.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -76,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\28" />
       <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\NATO_Alphabet" />
       <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\25-day" />
       <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\MailMerge" />
       <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\TurtleCrossingGame" />
-      <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\hirst-painting" />
     </key>
   </component>
   <component name="RunManager">
@@ -215,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732536181197</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated">
+      <option name="closed" value="true" />
+      <created>1732918292216</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732918292216</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated">
+      <option name="closed" value="true" />
+      <created>1732918327108</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732918327108</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
