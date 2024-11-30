@@ -2,6 +2,11 @@ from tkinter import *
 from tkinter import messagebox
 import random
 import pyperclip
+import json
+
+from matplotlib.pyplot import title
+
+FILE_PATH = r"C:\Users\Khasan\PycharmProjects\PythonProjects\Password_Manager\data.json"
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
@@ -34,6 +39,12 @@ def save():
     website = website_entry.get()
     email = email_entry.get()
     password = password_entry.get()
+    new_data = {
+        website: {
+            "email": email,
+            "password": password,
+        }
+    }
 
     if not website or not password:
         # Show an error message if either field is empty
@@ -42,13 +53,45 @@ def save():
         is_ok = messagebox.askokcancel(title=website, message=f"These are the details entered: \nEmail: {email}"
                                                         f"\nPassword: {password} \nIs it ok to save?")
         if is_ok:
-            # Create or append to data.txt
-            with open("data.txt","a") as file:
-                file.write(f"{website} | {email} | {password}\n")
 
-    # Clear the entry fields
-    website_entry.delete(0,END)
-    password_entry.delete(0,END)
+            try:
+                # Try reading the existing data file
+                with open(FILE_PATH, "r") as data_file:
+                    # Reading old data
+                    data = json.load(data_file)
+            except FileNotFoundError:
+                # If the file doesn't exist, create it with the new data
+                with open(FILE_PATH, "w") as data_file:
+                    json.dump(new_data, data_file, indent=4)
+            else:
+                # If the file exists, update the old data with the new data
+                data.update(new_data)
+                # Save the updated data back to the file
+                with open(FILE_PATH, "w") as data_file:
+                    json.dump(data, data_file, indent=4)
+            finally:
+                # Clear input fields (assuming you're using a GUI with `Entry` widgets)
+                website_entry.delete(0, END)
+                password_entry.delete(0, END)
+
+# ---------------------------- FIND PASSWORD ------------------------------- #
+
+def find_password():
+    website = website_entry.get()
+
+    try:
+        with open(FILE_PATH,"r") as data_file:
+            data = json.load(data_file)
+    except FileNotFoundError:
+        messagebox.showinfo(title="Error",message="No Data File Found")
+    else:
+        if website in data:
+            email = data[website]["email"]
+            password = data[website]["password"]
+            messagebox.showinfo(title=website,message=f"Email: {email}\nPassword: {password}")
+        else:
+            messagebox.showinfo(title="Error",message=f"No details for the website '{website}' exist.")
+
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -68,8 +111,10 @@ canvas.grid(row=0, column=1)
 # Labels and Entry widgets for the user input
 website_label = Label(window, text="Website:")
 website_label.grid(row=1, column=0)
-website_entry = Entry(window, width=35)
-website_entry.grid(row=1, column=1, columnspan=2, sticky="ew")
+website_entry = Entry(window, width=21)
+website_entry.grid(row=1, column=1, sticky="ew")
+search_button = Button(window, text="Search",width=15,command=find_password)
+search_button.grid(row=1, column=2)
 website_label.focus()
 
 email_label = Label(window, text="Email/Username:")
