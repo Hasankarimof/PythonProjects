@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b370b53-b64c-48c8-8d88-c692401ec355" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/Flash_Card_Capstone_Pr/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Password_Manager/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirthdayWisher/birthdays.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirthdayWisher/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirthdayWisher/quotes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISS_Tracker/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISS_Tracker/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISS_Tracker/teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kanya-Quotes/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kanya-Quotes/kanye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kanya-Quotes/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quizzler_App/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quizzler_App/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quizzler_App/question_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quizzler_App/quiz_brain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quizzler_App/ui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NATO_Alphabet/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/NATO_Alphabet/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Password_Manager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Password_Manager/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pomodoro_Timer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pomodoro_Timer/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,48 +63,31 @@
     "Python.Make_Spirograph.executor": "Run",
     "Python.Random_Draw_Walk.executor": "Run",
     "Python.car_manager.executor": "Run",
+    "Python.data.executor": "Run",
+    "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
     "Python.paddle.executor": "Run",
     "Python.playground.executor": "Run",
     "Python.scoreboard.executor": "Run",
     "Python.snake.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.ui.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "configurable.group.project"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\Quizzler_App" />
+      <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\33" />
+      <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\Kanya-Quotes" />
+      <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\BirthdayWisher" />
       <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\Flash_Card_Capstone_Pr" />
-      <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\Password_Manager" />
-      <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\28" />
-      <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\NATO_Alphabet" />
-      <recent name="C:\Users\Khasan\PycharmProjects\PythonProjects\25-day" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProjects" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProjects" />
       <option name="ENV_FILES" value="" />
@@ -103,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SnakeGame" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Quizzler_App" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SnakeGame/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Quizzler_App/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +113,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732992513491</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updated">
+      <option name="closed" value="true" />
+      <created>1733010978949</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733010978949</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
